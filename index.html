@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JS</title>
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Praticando e aprendendo 🧙‍♂️</h1>
+    </header> 
+    
+    <main>
+        <div class="container-inicio">
+        <h2 class="titulo-1">Exercícios JavaScript</h2>
+        <h2 class="informacao-importante">Atenção!!!</h2>
+        <p>Abra o console do navegador (F12) para ver o resultado.</p>
+        </div>
+
+        <section>
+            <h2>1. Verificador de número positivo ou negativo</h2>
+            <p>Digite um número e clique em "Verificar Número" para saber se ele é positivo ou negativo:</p>
+
+            <div class="container-selecao">
+                <input type="number" id="numeroInput" placeholder="Digite um número">
+                <button type="button" id="verificarNumero">Verificar Número</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. Verificar maioridade:</h2>
+            <p>Qual a sua idade?</p>
+
+            <div class="container-selecao">
+                <input type="number" id="idadeInput" placeholder="Digite sua idade">
+                <button type="button" id="verificarIdade">Verificar Idade</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Contagem progressiva</h2>
+            <p>Os números de 1 até 10 serão exibidos no console.</p>
+            
+            <p>Lembre-se para acessar o console clique no "F12" do seu teclado.</p>
+
+            <div class="container-selecao">
+                <button type="button" id="iniciarContagemProgressiva">Iniciar Contagem</button>
+                <button type="button" id="redefinirProgressiva">Redefinir</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Tabuada de Multiplicação</h2>
+            <p>Digite algum número para ele multiplicar por 1 ao 10.</p>
+
+            <div class="container-selecao">
+                <input type="number" id="multiplicacaoInput" placeholder="Digite um número">
+                <button type="button" id="tabuadaMultiplicacao">Gerar Tabuada</button>
+            </div>
+                <div id="resultadoMultiplicacao"></div>
+        </section>
+
+        <section>
+            <h2>5. Contagem regressiva</h2>
+            <p>Os números de 10 até 1 serão exibidos no console.</p>
+
+            <p>Lembre-se para acessar o console clique no "F12" do seu teclado.</p>
+
+            <div class="container-selecao">
+                <button type="button" id="iniciarContagemRegressiva">Iniciar Contagem</button>
+                <button type="button" id="redefinirRegressiva">Redefinir</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>6. Digitação de senha</h2>
+            <p>Digite a senha corretamente:</p>
+
+            <div class="container-selecao">
+            <button type="button" id="digiteSenha">Digite a senha</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>7. Soma de dois números</h2>
+            <p>Digite dois números para somar e o resultado será exibido no console.</p>
+            
+            <p>Lembre-se para acessar o console clique no "F12" do seu teclado.</p>
+
+            <div class="container-selecao">
+                <input type="number" id="primeiroNumero" placeholder="Primeiro número">
+                <input type="number" id="segundoNumero" placeholder="Segundo número">
+                <button type="button" id="somarNumero">Somar</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>8. Verificador de número</h2>
+            <p>Digite um número e verifique se ele é true(verdadeiro) se o número for par ou false(falso) se for ímpar.</p>
+
+            <div class="container-selecao">
+                <input type="number" id="numeroParImpar" placeholder="Digite um número">
+                <button type="button" id="verificarParImpar">Verificar</button>
+            </div>
+                <element id="resultadoParImpar"></element>
+        </section>
+
+        <section>
+            <h2>9. Soma de números em sequência até um limite</h2>
+            <p>Digite um número para somar todos os valores, de 1 até o número que você digitou.</p>
+
+            <div class="container-selecao">
+                <input type="number" id="numeroLimite" placeholder="Digite um número">
+                <button type="button" id="somaSequencia">Calcular soma</button>
+            </div>
+                <element id="resultadoSequencia"></element>
+        </section>
+
+        <section>
+            <h2>10. Verificar se um número é primo</h2>
+            <p>Digite um número e verifique se ele é true(verdadeiro) se o número for primo ou false(falso) caso contrário.</p>
+            
+            <div class="container-selecao">
+                <input type="number" id="numeroPrimo" placeholder="Digite um número">
+                <button type="button" id="verificarPrimo">Verificar</button>
+            </div>
+                <element id="resultadoPrimo"></element>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>Proa + Transfome-me Serasa &copy 2025</p>
+        <!-- <p>Acesse meu github para acompranhar minha jornada!</p> -->
+        <div class="links-icones">
+            <a href="https://github.com/Julia243b"><i class="fi fi-brands-github"></i></a>
+            <a href="https://www.linkedin.com/in/julia-mota-870494288/"><i class="fi fi-brands-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/01-numero.js"></script>
+    <script src="js/02-idade.js"></script>
+    <script src="js/03-contagem-pr.js"></script>
+    <script src="js/04-tabuada.js"></script>
+    <script src="js/05-contagem-reg.js"></script>
+    <script src="js/06-senha.js"></script>
+    <script src="js/07-soma.js"></script>
+    <script src="js/08-par-impar.js"></script>
+    <script src="js/09-limite.js"></script>
+    <script src="js/10-primo.js"></script>
+
+
+</body>
+</html>
